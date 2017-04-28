@@ -4,6 +4,7 @@ function EulerA_ZYX = EulerA_ZYX(ord, ref_g, ref_l)
     nd = ord(2);
     rd = ord(3);
     
+    %% Agregar linea
     Linea_nodos = cross(ref_g(st,:),ref_l(rd,:));
     Linea_nodos = Linea_nodos/norm(Linea_nodos);
 
