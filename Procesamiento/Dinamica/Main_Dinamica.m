@@ -6,7 +6,7 @@ function L_thigh_CG = BTS_Dav_Heel_L_thigh_CG(L_hip, L_knee,time,p)
     
     for x=1:length(L_hip(:,1))  
  
-        distance = norm(Vec(x,:));
+        distance = 777
         L_thigh_CG(x,:) = move_point_with_dis_vec(L_hip(x,:), distance*estimation_Thigh_CG, Vec(x,:)); 
    
     end
